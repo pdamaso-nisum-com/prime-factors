@@ -18,7 +18,6 @@ public class PrimeFactorsTest extends TestCase {
     }
 
     public void testOne() throws Exception {
-        new PrimeFactors();
         assertEquals(list(), generate(1));
     }
 
